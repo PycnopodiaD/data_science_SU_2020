@@ -1,0 +1,13 @@
+Array-Oriented Programming with Python
+
+In the section "Array-oriented Programming with Python", we will familiarize ourselves with more complex data types in Python. First, we will study lists and tuples as collection objects, and the operations that can be performed with them. 
+Then, we will study dictionaries and sets, and the corresponding operations that can be performed with them. 
+Lists, tuples, dictionaries, and sets are part of the standard Python programming language.
+The standard Python does not come with an array data structure, but there is a library NumPy that is widely used for representing "ndarray" array data type (or simply an array). 
+NumPy arrays may consist of numeric values, they are very well optimized for speedy computations on the arrays. They have a lot of uses in Data Science, where data can often be represented as numeric arrays (or mathematically speaking, matrices). 
+We will study the creation, manipulation and general use of NumPy arrays. Numpy arrays can contain numeric data and can be accessed using integer indices.
+The journey of arrays will continue with the introduction of a Pandas library, that is widely used for arrays that can also contain non-numeric data. 
+You can also access the rows and columns by their names, for instance. You can see Pandas library and an enhanced and decorated NumPy library, with richer possibilities for data manipulation.
+Reading material for this section includes Chapter 5 (Sequences: Lists and Tuples), Chapter 6 (Dictionaries and Sets), and Chapter 7 (Array-Oriented Programming with NumPy) of the course book. 
+You are expected to study these materials. Your knowledge will be tested with a series of exercises that will appear on the course page after you have studied the materials.
+
