@@ -1,17 +1,14 @@
 import os
 import sys
 
-def dispatch_func(filename):
+def dispatch_func(data_path):
+    check = np.loadtxt(data_path)
+    if np.array_equal(check, check.astype(bool)) == True:
+        runJac(data_path)
+    else:
+        runEluc(data_path)
 
-    with open(filename, 'rb') as f:
-        for block in f:
-            if b'\0' in block:
-                os.system('python Jaccard_script.py')
-                break
-            else:
-                os.system('python KMeans_script.py')
-                break
 
 if __name__ == '__main__':
-    filename = sys.argv[1]
-    dispatch_func(filename)
+    data_path = sys.argv[1]
+    dispatch_func(data_path)
